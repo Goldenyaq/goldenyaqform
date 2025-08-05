@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Become a Volunteer</title>
+
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg,rgb(223, 245, 248),blue);
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .card {
+            max-width: 500px;
+            margin: 50px auto;
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+
+        
+        .form-section {
+            background-color: #fcefee;
+            padding:30px ;
+            border-top: 2px solid  #6181ff;
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        input,select {
+            margin-bottom: 15px;
+            padding: 12px;
+            border: 2px solid  #6181ff;
+            border-radius: 8px;
+            font-size: 1em;
+        }
+
+        input [type="submit"]{
+            background-color:  #6181ff;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]{
+            background-color:  #6181ff;
+        }
+
+        footer{
+            text-align: center;
+            padding:15px;
+            color:#fff;
+            font-size: 0.9em;
+        }
+
+
+    </style>
+</head>
+<body>
+   <div class="card">
+         <!-- Form Section -->
+            <div class="form-section">
+                <h2 style="text-align: center;color:  #6181ff;">ENTER YOUR DETAILS TO SIGN UP!</h2>
+                <form  action="https://sdgs.un.org/goals/goal1" method="get" target="_blank" class="invite-form">
+                    <label for="name">Your Name :</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter Your Name">
+
+                    <label for="address">Your Address:</label>
+                    <input type="text" id="address" name="address" required placeholder="Enter Your Address">
+
+                    <label for="email">Your Email Address :</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your Email Address">
+
+                    <label for="tel">Your Phone Number :</label>
+                    <input type="number" id="tel" name="tel" required placeholder="Enter your phone number">
+
+                    <select required>
+                        <option value="?">Hobbies</option>
+                        <option value="food"> Dancing</option>
+                        <option value="cloth">Reading</option>
+                        <option value="education">Sports</option>
+                        <option value="anything">Others</option>
+                    </select>
+
+                    <input type="submit" value="Signup">
+                </form>
+            </div>
+    </div>
+
+    <!-- Footer Section -->
+     <footer>
+        Hlk Wears❤️ | Form.Function.Fashion
+     </footer>
+</body>
+</html>
